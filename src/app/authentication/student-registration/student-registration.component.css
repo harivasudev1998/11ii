@@ -1,0 +1,22 @@
+.validation-error {
+    color:red;
+    font: bold;
+}
+.sign-up-text{
+    font: bold;
+}
+.signup-form{
+    box-shadow: 3px 3px #888888;
+    background:#EFF0f1;
+}
+.back-ground{
+    background: white;
+}
+/* .hi {
+    background-image: url("https://www.planetizen.com/files/images/shutterstock_108585317%20crop.jpg");
+    min-height: 20px;
+    background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+    position:relative;
+   } */

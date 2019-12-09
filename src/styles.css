@@ -1,0 +1,34 @@
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
+/* Nav Bar starts*/
+nav, nav a {
+	color: #ffffff;
+	background-color: #140f0d;
+}
+a:HOVER {
+	color: #fff;
+}
+/* Nav Bar Ends*/
+/* Footer  starts*/
+.footer {
+	position:fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #0c0706;
+	color: white;
+}
+/* Footer ends*/
+.signup-form {
+	max-width: 600px;
+	margin: 60px auto;
+	margin-top: 0;
+}
+.text-white
+	{
+	background-color: #942929;
+	border: 0px;
+}

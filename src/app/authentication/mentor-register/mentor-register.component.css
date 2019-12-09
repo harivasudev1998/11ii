@@ -1,0 +1,72 @@
+.validation-error {
+    color:red;
+    font: bold;
+}
+.sign-up-text{
+    font: bold;
+}
+.signup-form{
+    box-shadow: 3px 3px #888888;
+    background:#EFF0f1;
+}
+.back-ground{
+    background: white;
+}
+
+/* Rating Start */
+
+.rating {
+    float: left;
+  }
+
+  .rating:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+  }
+
+  .rating:not(:checked)>label {
+    float: right;
+    width: 1em;
+    cursor: pointer;
+    font-size: 150%;
+    color: #ddd;
+  }
+
+  .rating>input:checked~label.good {
+    color: rgb(71, 163, 43);
+  }
+  .rating:not(:checked)>label.good:hover,
+  .rating:not(:checked)>label:hover~label.good {
+    color: rgb(71, 163, 43);
+  }
+
+  .rating>input:checked~label.bad {
+    color: rgb(255, 158, 30);
+  }
+  .rating:not(:checked)>label.bad:hover,
+  .rating:not(:checked)>label:hover~label.bad {
+    color: rgb(255, 158, 30);
+  }
+
+  .rating>input:checked~label.verybad {
+    color: rgb(247, 19, 19);
+  }
+  .rating:not(:checked)>label.verybad:hover,
+  .rating:not(:checked)>label:hover~label.verybad {
+    color: rgb(247, 19, 19);
+  }
+
+  .rating>label:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+  }
+
+  .border{
+    border-radius: 10px;
+    
+    margin-left: 3px;
+    border:solid 2px grey;
+  }
+
+  /* Rating End */
